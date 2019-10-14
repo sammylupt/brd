@@ -1,0 +1,17 @@
+[package]
+name = "brd"
+description = "Use a GUI to delete multiple git branches at once"
+version = "0.1.0"
+edition = "2018"
+authors = ["Scott Luptowski <scottluptowski@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/scottluptowski/brd"
+repository = "https://github.com/scottluptowski/brd"
+readme = "README.md"
+keywords = ["git", "brd", "terminal"]
+
+[dependencies]
+dialoguer = "0.4.0"
+git2 = "0.7"
+colored = "1.8.0"
+console = "0.7.7"
